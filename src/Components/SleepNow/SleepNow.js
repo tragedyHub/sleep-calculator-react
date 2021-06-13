@@ -15,8 +15,6 @@ const SleepNow = () => {
     return hour + ":" + minutes;
   };
 
-  const calculateHours = (hour, minute) => {};
-
   return (
     <div id="sleep_now">
       <h1>

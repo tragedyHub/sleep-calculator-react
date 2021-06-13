@@ -1,0 +1,45 @@
+#plan_sleep
+    width: 100vw
+    height: 100vh
+    display: flex
+    align-items: center
+    flex-direction: column
+    & .cont
+        margin-top: 250px
+        display: flex
+        flex-direction: column
+    &__title
+        margin: 150px 0 20px
+        font-size: 22px
+        font-weight: 400
+    & .btn
+        border: 1px solid #fff
+        border-radius: 4px
+        background: transparent
+        margin: 20px auto 0
+        // height: 40px
+        // width: 60%  
+        padding: 7px 20px
+        cursor: pointer
+        transition: .4s all ease
+        &:hover
+            background: #fff
+        & a
+            transition: .4s all ease
+            &:hover
+                color: #000
+#plan_sleep_result
+    width: 100vw
+    height: 100vh
+    display: flex
+    align-items: center
+    flex-direction: column
+    & .cont
+        margin-top: 250px
+        display: flex
+        
+        & .wake_up_title
+            margin-right: 50px
+        & h1 
+            &:not(:last-child)
+                margin-right: 50px

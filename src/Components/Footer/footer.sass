@@ -1,23 +1,28 @@
-#footer 
+#footer
     position: absolute
     bottom: 0
     left: 50%
     width: 100vw
     transform: translateX(-50%)
-    border-top:  1px solid #fff
+    border-top: 1px solid #fff
     height: 70px
     & .container
         height: 100%
         display: flex
-        align-items: center 
-        & .cont 
+        align-items: center
+        & .cont
             width: 100%
             display: flex
             & .creators
+                display: flex
                 margin: 0 auto
-                & a 
-                    transition: .4s all ease
-                    &:hover 
+                & a
+                    color: grey
+                    transition: .2s all ease
+                    &:hover
                         color: red
-                    &:first-child
-                        margin-right: 40px
+                    &:nth-child(2)
+                        margin-right: 20px
+                &_title
+                    color: grey
+                    margin-right: 40px

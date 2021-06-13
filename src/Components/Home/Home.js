@@ -1,7 +1,5 @@
 import { React } from "react";
 import "./home.sass";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 import Dropdown from "../Dropdows/Dropdowns";
 import { NavLink } from "react-router-dom";
 
@@ -22,7 +20,13 @@ const Home = () => {
               <h1 className="main_cont__title">
                 If you go to bed NOW, you should wake up at...
               </h1>
-              <button className="btn"><NavLink to="/sleep_now">ZZZ</NavLink></button>
+              <button className="btn">
+                <NavLink to="/sleep_now">ZZZ</NavLink>
+              </button>
+            </div>
+            <div className="plan">
+              <h1 className="main_cont__title">I plan to fall asleep at...</h1>
+              <button className="btn"><NavLink to="plan_sleep">Calculate</NavLink></button>
             </div>
           </div>
         </div>
