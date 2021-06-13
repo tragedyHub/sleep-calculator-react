@@ -1,0 +1,58 @@
+.grain
+    -webkit-animation: grain 6s steps(10) infinite
+        /*animation: grain 6s steps(10) infinite;*/
+    background-image: url("./images/grain.png")
+    background-repeat: repeat
+    height: 300%
+    left: -100%
+    opacity: 0.06
+    pointer-events: none
+    position: fixed
+    top: -100%
+    width: 300%
+    will-change: transform
+    z-index: 1
+@keyframes grain
+    0%
+        -webkit-transform: translate(20%, -15%)
+        transform: translate(20%, -15%)
+
+    10%
+        -webkit-transform: translate(-20%, -15%)
+        transform: translate(-20%, -15%)
+
+    20%
+        -webkit-transform: translate(20%, -5%)
+        transform: translate(20%, -5%)
+
+    30%
+        -webkit-transform: translate(-20%, -5%)
+        transform: translate(-20%, -5%)
+
+    40%
+        -webkit-transform: translate(20%, 5%)
+        transform: translate(20%, 5%)
+
+    50%
+        -webkit-transform: translate(-20%, 5%)
+        transform: translate(-20%, 5%)
+
+    60%
+        -webkit-transform: translate(20%, 15%)
+        transform: translate(20%, 15%)
+
+    70%
+        -webkit-transform: translate(-20%, 15%)
+        transform: translate(-20%, 15%)
+
+    80%
+        -webkit-transform: translate(20%, 5%)
+        transform: translate(20%, 5%)
+
+    90%
+        -webkit-transform: translate(-20%, 5%)
+        transform: translate(-20%, 5%)
+
+    to
+        -webkit-transform: translate(20%, -5%)
+        transform: translate(20%, -5%)
